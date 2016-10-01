@@ -4,11 +4,16 @@ body {
 
 .fb-search {
     width: 200px !important;
+    border-radius: 25px 25px 25px 25px;
+}
+.search-button {
+  border-radius: 25px 25px 25px 25px;
+  border-left:0 solid transparent;
 }
 .twitter-search {
     width: 575px !important;
 }
 
-.nav-button {
-  margin-bottom: 0px;
+.icon-low {
+  color:grey
 }

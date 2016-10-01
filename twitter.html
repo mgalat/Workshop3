@@ -31,28 +31,28 @@
                   <!-- Left-aligned items. -->
                   <div class="nav navbar-nav navbar-left">
                       <!-- Right-aligned items -->
-                          <div class="btn-group nav-button" role="group">
-                              <button type="button nav-button" class="btn btn-default navbar-btn">
-                                <a href="#"><span class="glyphicon glyphicon-home">
-                                </span> <strong>Home</strong></a>
+                          <div class="btn-group" role="group">
+                              <button type="button" class="btn btn-default navbar-btn btn-link nav-buttonn">
+                                <span class="glyphicon glyphicon-home">
+                                </span> <strong>Home</strong>
                               </button>
                           </div>
                           <div class="btn-group" role="group">
-                            <button type="button nav-button" class="btn btn-default navbar-btn">
-                              <a href="#"><span class="glyphicon glyphicon-flash">
-                              </span> <strong>Moments</strong></a>
+                            <button type="button" class="btn btn-default nav-buttonn navbar-btn btn-link">
+                              <span class="glyphicon glyphicon-flash">
+                              </span> <strong>Moments</strong>
                             </button>
                           </div>
                           <div class="btn-group" role="group">
-                            <button type="button nav-button" class="btn btn-default navbar-btn">
-                              <a href="#"><span class="glyphicon glyphicon-bell">
-                              </span> <strong>Notifications</strong></a>
+                            <button type="button" class="btn btn-default nav-buttonn navbar-btn btn-link">
+                              <span class="glyphicon glyphicon-bell">
+                              </span> <strong>Notifications</strong>
                             </button>
                           </div>
                           <div class="btn-group" role="group">
-                            <button type="button nav-button" class="btn btn-default navbar-btn">
-                              <a href="#"><span class="glyphicon glyphicon-envelope">
-                              </span> <strong>Messages</strong></a>
+                            <button type="button" class="btn btn-default nav-buttonn navbar-btn btn-link">
+                              <span class="glyphicon glyphicon-envelope">
+                              </span> <strong>Messages</strong>
                             </button>
                           </div>
                   </div>
@@ -64,7 +64,7 @@
                       <div class="input-group">
                           <input type="text" class="form-control fb-search pull-right" placeholder="Search Twitter">
                           <span class="input-group-btn">
-                            <button type="submit" class="btn btn-default">
+                            <button type="submit" class="btn btn-default search-button">
                               <span class="glyphicon glyphicon-search">
                               </span>
                             </button>
@@ -78,6 +78,8 @@
                         </div>
                         <div class="btn-group" role="group">
                             <button type="button" class="btn btn-default navbar-btn">
+                              <span class="glyphicon glyphicon-edit">
+                              </span>
                               Tweet
                             </button>
                         </div>
@@ -110,7 +112,7 @@
                 <div class="media">
                   <div class="media-right media-top btn-group pull-right" role="group">
                     <button type="button" class="btn btn-default navbar-btn">
-                      *
+                      ✹
                     </button>
                     <button type="button" class="btn btn-default navbar-btn">
                       Following
@@ -120,7 +122,8 @@
                     PIC
                   </div>
                   <div class="media-body">
-                    <a href="#">Nasa</a>
+                    <a href="#">Nasa</a> <span class="glyphicon glyphicon-check">
+                    </span>
                     <br> @Nasa
                   </div>
                 </div>
@@ -191,17 +194,21 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="list-inline">
-                  <li>
-                  <a href="#"><span class="glyphicon glyphicon-thumbs-up">
-                    </span></a>
+                  <li class="icon-list">
+                  <span class="glyphicon glyphicon-arrow-left icon-low">
+                    </span>
                   </li>
-                  <li>
-                    <a href="#"><span class="glyphicon glyphicon-comment">
-                      </span></a>
+                  <li class="icon-list">
+                    <span class="glyphicon glyphicon-refresh icon-low">
+                      </span>
                   </li>
-                  <li>
-                    <a href="#"><span class="glyphicon glyphicon-share-alt">
-                      </span> </a>
+                  <li class="icon-list">
+                    <span class="glyphicon glyphicon-heart icon-low">
+                      </span>
+                  </li>
+                  <li class="icon-list">
+                  <span class="glyphicon glyphicon-option-horizontal icon-low">
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -218,7 +225,7 @@
                   <div class="media-body">
                     <div class="input-group">
                       <input type="text" class="form-control twitter-search"
-                          placeholder="Write a comment...">
+                          placeholder="Reply to @NASA @Nasa_Hubble">
                       <span class="input-group-btn">
                     </span>
                   </div>
