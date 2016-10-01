@@ -15,5 +15,7 @@ body {
 }
 
 .icon-low {
-  color:grey
+  display:block;
+  padding-left: 40px;
+  color:grey;
 }
